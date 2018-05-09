@@ -14,7 +14,7 @@ render() {
     return (
             <div className="product"   key={this.props.product.id} >
             <span className="deleteProduct" onClick={this.deleteProduct}>Ta bort produkt </span>
-              <img src={this.props.product.img_src} onError={(e)=>{e.target.style="display:none"}} />
+              <img src={this.props.product.img_src} alt="" onError={(e)=>{e.target.style="display:none"}} />
               <h4> {this.props.product.title}</h4>
               <div className="infoContainer">
                   <label> Pris </label>

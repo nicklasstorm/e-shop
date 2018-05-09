@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
-import axios from 'axios'
 import Product from './Product'
 import ProductForm from './ProductForm'
-import update from 'immutability-helper'
 import  { fetchProducts, createProduct, updateProduct, deleteProduct, editProduct, closedEditing } from '../actions/action'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'

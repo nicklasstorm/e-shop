@@ -1,5 +1,3 @@
-import { createStore } from 'redux';
-import { push } from 'react-router-redux'
 import axios from 'axios'
 
 export const FETCH_PRODUCTS = 'FETCH_PRODUCTS';
